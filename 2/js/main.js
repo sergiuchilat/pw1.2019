@@ -76,3 +76,21 @@ switch(n){
 	default: 
 		console.log('n nu este cifra')
 }
+
+
+let c = null;
+
+a = 20;
+b = 3;
+
+if(a > b)
+	c = true;
+else
+	c = false;
+
+/*Operator ternar*/
+
+c = (a > b)?true:false;
+	
+console.log(c);
+
