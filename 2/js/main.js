@@ -94,3 +94,48 @@ c = (a > b)?true:false;
 	
 console.log(c);
 
+
+
+/*INSTRUCTIUNI REPETITIVE*/
+
+
+console.log('For');
+for(let i = 0; i <= 9 ; i++){
+	console.log(i);
+}
+
+
+console.log('While');
+let i = 0; 
+while(i <= 9){
+	console.log(i);
+	i++;
+}
+
+console.log('Do While');
+i = 0; 
+do{
+	console.log(i);
+	i++;
+}while(i <= 9);
+
+
+
+/*INSTRUCTIUNI REPETITIVE (While comparativ cu do while)*/
+
+
+let limit = 4;
+
+console.log('While');
+i = 5; 
+while(i <= 9 && i <= limit){
+	console.log(i);
+	i++;
+}
+
+console.log('Do While');
+i = 5; 
+do{
+	console.log(i);
+	i++;
+}while(i <= 9 && i <= limit);
