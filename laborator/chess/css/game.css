@@ -1,0 +1,26 @@
+#table{
+	background: lime;
+}
+
+#table .cell{
+	border: 1px solid green;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+}
+
+#table .white-cell{
+	background: #ddd;
+}
+#table .black-cell{
+	background: #160702;
+	color: white;
+}
+
+#table .figure{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background: url('../img/figures.png');
+	background-position: -5px -5px;
+}
