@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head></head>
+
+<body>
+	<div id="app">
+		{{message}}
+		{{var1}}
+		<input type="text" v-bind:value="inputValue">
+
+	<h1 v-if="showedDigit==1">One</h1>
+	<h2 v-else-if="showedDigit==2">Two</h2>
+	<h2 v-else>Not a digit</h2>
+	
+
+	<ul>
+		<li v-for="(student, index) in students">
+			<p>{{index}}</p>
+			<h2>{{student.name}}</h2>
+			<h3>{{student.age}}</h3>
+		</li>
+	</ul>
+
+	<button v-on:click="counter += 1">+1</button>
+  	<p>Кнопка выше была нажата {{ counter }} раз</p>
+
+		
+	x<input type="text" v-model="x">
+	+
+	y<input type="text" v-model="y">
+	<input type="button" value="calculate" v-on:click="sumXY()">
+	<div>Sum = {{sum}}</div>
+
+
+	
+	</div>
+
+	<div id="app2">
+		{{v2_2}}
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
