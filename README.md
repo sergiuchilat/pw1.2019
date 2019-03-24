@@ -1,3 +1,4 @@
 # pw1.2019
 Linkuri utile
-https://www.youtube.com/playlist?list=PLLvTAhHe8AYCf1RDc2l2ZWriPfMf-yZel
+Video curs Vue https://www.youtube.com/playlist?list=PLLvTAhHe8AYCf1RDc2l2ZWriPfMf-yZel
+JSON server https://github.com/typicode/json-server
