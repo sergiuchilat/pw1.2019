@@ -1,0 +1,14 @@
+1. vuex
+- mutatii
+- getters
+- comit
+2. store
+- fetch. - primirea datelor de la un API 
+- inscrierea datelor in componenta
+3. vue bootstrap
+-componenta table
+4. localizarea plugin i18n
+5. cicluri de viață a componentelor.
+- create
+- mounted
+etc
